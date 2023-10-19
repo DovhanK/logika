@@ -54,6 +54,8 @@ class Bullet(GameSprite):
         if self.rect.y < 0:
             self.kill()
 
+# створити клас для відображення пуль та перезарядки
+
 bullets = sprite.Group()
 
 monsters = sprite.Group()
